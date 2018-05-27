@@ -1,0 +1,28 @@
+{
+  "exs" : [
+    {
+      "id": 1,
+      "name" : "Trump",
+      "url" : "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg",
+      "age" : "50",
+      "flaws" : "crazy logic....",
+      "locationId" : [1,2,3,9]
+    },
+    {
+      "id": 2,
+      "name" : "Obama",
+      "url" : "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/05/08/105193961-884533420.600x400.jpg?v=1525811593",
+      "age" : "50",
+      "flaws" : "None....",
+      "locationId" : [2,4,6]
+    },
+    {
+      "id": 3,
+      "name" : "Kennedy",
+      "url" : "https://vignette.wikia.nocookie.net/astral-domination/images/b/b8/Jfk.jpg/revision/latest?cb=20171208223253",
+      "age" : "50",
+      "flaws" : "None....",
+      "locationId" : [5,6,7,8]
+    }
+  ]
+}

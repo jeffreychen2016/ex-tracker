@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- For Auto-complete -->
+  <link rel="stylesheet" href="styles/easy-autocomplete.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Ex-Tracker</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" id="filter-cards" placeholder="Location">
+          </div>
+          <button type="button" id="filter-btn" class="btn btn-default">Filter</button>
+          <button type="button" id="unfilter-btn" class="btn btn-default">Unfilter</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="btn btn-default find-location-btn reduce-padding" role="button" id="find-morning">Morning</a></li>
+            <li><a href="#" class="btn btn-default find-location-btn reduce-padding" role="button" id="find-afternoon">Afternoon</a></li>
+            <li><a href="#" class="btn btn-default find-location-btn reduce-padding" role="button" id="find-evening">Evening</a></li>
+            <li><a href="#" class="btn btn-default find-location-btn reduce-padding" role="button" id="find-after-dark">After Dark</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row margin-top">
+      <div class="col-md-4" id="left-col">
+        <div class="col-md-10 col-md-offset-1" id="ex-holder"></div>
+      </div>
+      <div class="col-md-8" id="right-col">
+        <div class="col-md-10 col-md-offset-1" id="locations-holder"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Your EX might be here~~~!!!</h4>
+        </div>
+        <div class="modal-body" id="map">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Boostrap and Jquery  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- For Auto-complete -->
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="dist/jquery.easy-autocomplete.min.js"></script>
+  <!-- For Google Map -->
+  <div id="google-map-script"></div>
+  <script src="dist/app.js"></script>
+</body>
+</html>
