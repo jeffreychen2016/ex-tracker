@@ -1,0 +1,238 @@
+/* ---------------- General CSS ---------------- */
+
+body {
+  background-image: url('http://www.twitrcovers.com/wp-content/uploads/2012/10/Rain-l.jpg');
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.no-margin-top {
+  display: block;
+  margin-top: 0px;
+}
+
+.ex-card label,
+.location-card label {
+  display: block;
+}
+
+.ex-card img {
+  width: 100%;
+  height: 290px;
+  border-radius: 50%;
+}
+
+body {
+  overflow:none;
+}
+
+#left-col {
+  overflow: scroll;
+  height: 100vh;
+}
+
+#right-col {
+  overflow: scroll;
+  height: 100vh;
+}
+
+#goBackBtn {
+  width: 100%;
+}
+
+/* ---------------- Nav CSS ---------------- */
+
+.navbar {
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.navbar-nav>li>a.reduce-padding {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 8px;
+}
+
+#find-morning:hover {
+  background-color: #f4f142;
+}
+
+#find-afternoon:hover {
+  background-color: #f4af41;
+}
+
+#find-evening:hover {
+  background-color: #4167f4;
+}
+
+#find-after-dark:hover {
+  background-color: #6a41f4;
+}
+
+/* ---------------- Card CSS ---------------- */
+#left-col .thumbnail,
+#right-col .thumbnail {
+  background-color: rgba(31,3,3,0.5);
+}
+
+#right-col .thumbnail img {
+  width: 100%;
+  height: 100px;
+}
+
+#right-col .location-card-title {
+  line-height: 1.3em;
+  color: papayawhip;
+}
+
+#left-col label,
+#right-col p {
+  color: papayawhip;
+}
+
+.Morning,
+.Afternoon,
+.Evening,
+.After-Dark{
+  line-height: 1.4em;
+}
+
+.Morning {
+  background-color: #f4f142;
+}
+
+.Afternoon {
+  background-color: #f4af41;
+}
+
+.Evening {
+  background-color: #4167f4;
+}
+
+.After-Dark {
+  background-color: #6a41f4;
+}
+
+.ex-name {
+  background-color: bisque;
+}
+
+/* ---------------- Slide Down Effect CSS ---------------- */
+
+.image-swap-wrapper{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.location-image {
+  display: block;
+  width: 100%;
+  position: absolute;
+  transition: transform 1s ease-out;
+}
+
+.view-map-slide {
+  background-image: url('https://previews.123rf.com/images/incomible/incomible1407/incomible140700057/29794641-city-map-abstract-seamless-pattern.jpg');
+  background-size: contain;
+  opacity: 0;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  transition: transform 1s ease-out;
+  transform: translateY(-100%);
+}
+
+.image-swap-wrapper:hover .location-image {
+  opacity:0;
+  transform: translateY(100%);
+}
+
+.image-swap-wrapper:hover .view-map-slide {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.view-map-btn {
+  display: block;
+  height: 35px;
+  width: 70%;
+  position: absolute;
+  left:15%;
+  top: 32.5px;
+}
+
+/* ---------------- Map CSS ---------------- */
+
+#map {
+  height: 400px;
+}
+
+
+/* ---------------- Media Query ---------------- */
+@media only screen and (max-width: 768px) {
+  .easy-autocomplete {
+    width: 100% !important;
+  }
+
+  .navbar-form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Set break point to 826px so it wont break the nav into 2 rows */
+@media only screen and (max-width: 826px) and (min-width:769px) {
+  .easy-autocomplete {
+    width: 100% !important;
+  }
+
+  .navbar-form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+/* standard fix the nav for break too late */
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}

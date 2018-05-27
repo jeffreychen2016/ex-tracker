@@ -1,0 +1,85 @@
+{
+  "locations" : [
+    {
+      "id" : 1,
+      "name" : "Starbucks",
+      "url" : "http://cdn2-blog.designhill.com/wp-content/uploads/2016/03/4-min.jpg",
+      "address" : "424 Church St #110, Nashville, TN 37219",
+      "time" : "Morning",
+      "lat": 36.1637915,
+      "lng": -86.7822744
+    },
+    {
+      "id" : 2,
+      "name" : "McDonald's",
+      "url" : "https://vignette.wikia.nocookie.net/ronaldmcdonald/images/b/b5/Mcdonalds-logo-current-1024x750.png/revision/latest?cb=20151128234130",
+      "address" : "2212 Nolensville Pike, Nashville, TN 37211",
+      "time" : "Afternoon",
+      "lat": 36.124766,
+      "lng": -86.7535757
+    },
+    {
+      "id" : 3,
+      "name" : "Walmart",
+      "url" : "http://dimsa.com/wp-content/uploads/2017/07/Ex-director-de-Walmart-encabezar%C3%A1-Grupo-Lala.jpg",
+      "address" : "2421 Powell Ave, Nashville, TN 37204",
+      "time" : "Evening",
+      "lat": 36.110974,
+      "lng": -86.7716345
+    },
+    {
+      "id" : 4,
+      "name" : "Kroger",
+      "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Current_Kroger_logo.svg/1200px-Current_Kroger_logo.svg.png",
+      "address" : "61 E Thompson Ln, Nashville, TN 37211",
+      "time" : "After Dark",
+      "lat": 36.109775,
+      "lng": -86.7273221
+    },
+    {
+      "id" : 5,
+      "name" : "KFC",
+      "url" : "http://i0.kym-cdn.com/entries/icons/original/000/004/391/KFC.jpg",
+      "address" : "336 Harding Pl, Nashville, TN 37211",
+      "time" : "Afternoon",
+      "lat": 36.0871143,
+      "lng": -86.6975923
+    },
+    {
+      "id" : 6,
+      "name" : "Taco Bell",
+      "url" : "http://atlantisplaza.com/wp-content/uploads/2015/07/ATLANTIS-logo-taco.jpg",
+      "address" : "4000 Nolensville Rd, Nashville, TN 37211",
+      "time" : "After Dark",
+      "lat": 36.0846353,
+      "lng": -86.7297086
+    },
+    {
+      "id" : 7,
+      "name" : "Walgreens",
+      "url" : "https://d3irk3g7luh32r.cloudfront.net/wp-content/uploads/sites/25/2016/06/walgreens-logo.jpg",
+      "address" : "2611 8th Ave S, Nashville, TN 37204",
+      "time" : "After Dark",
+      "lat": 36.1208373,
+      "lng": -86.845931
+    },
+    {
+      "id" : 8,
+      "name" : "Publix",
+      "url" : "http://static-21.sinclairstoryline.com/resources/media/e13e88f6-1e10-4e1e-95ad-549e5a9d8d76-large16x9_ImportedfromLakana.jpg?1515149470805",
+      "address" : "2324 Lebanon Pike, Nashville, TN 37214",
+      "time" : "Afternoon",
+      "lat": 35.9726432,
+      "lng": -86.9323901
+    },
+    {
+      "id" : 9,
+      "name" : "Costco",
+      "url" : "https://pbs.twimg.com/profile_images/654811081630584832/tBIHLgT1_400x400.jpg",
+      "address" : "6670 Charlotte Pike, Nashville, TN 37209",
+      "time" : "Afternoon",
+      "lat": 36.1392488,
+      "lng": -86.9553322
+    }
+  ]
+}
