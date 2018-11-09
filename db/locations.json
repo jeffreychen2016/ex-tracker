@@ -40,7 +40,7 @@
       "id" : 5,
       "name" : "KFC",
       "url" : "http://i0.kym-cdn.com/entries/icons/original/000/004/391/KFC.jpg",
-      "address" : "336 Harding Pl, Nashville, TN 37211",
+      "address" : "336 Harding Place, Nashville, TN 37211",
       "time" : "Afternoon",
       "lat": 36.0871143,
       "lng": -86.6975923
@@ -58,7 +58,7 @@
       "id" : 7,
       "name" : "Walgreens",
       "url" : "https://d3irk3g7luh32r.cloudfront.net/wp-content/uploads/sites/25/2016/06/walgreens-logo.jpg",
-      "address" : "2611 8th Ave S, Nashville, TN 37204",
+      "address" : "2611 8th Ave South, Nashville, TN 37204",
       "time" : "After Dark",
       "lat": 36.1208373,
       "lng": -86.845931

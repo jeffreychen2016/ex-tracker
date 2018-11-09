@@ -1,3 +1,5 @@
+const { easyAutocomplete, } = require('../lib/node_modules/easy-autocomplete');
+
 const autoComplete = (locations,exs) => {
   // combine all locations titles and addresses to an array
   // new array will be used for auto-complete function

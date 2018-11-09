@@ -3,6 +3,8 @@ const findLocationCards = (e) => {
     $(card).show();
     const btnClicked = e.target.innerHTML.replace(' ','-');
     $(card).not(`.${btnClicked}`).hide();
+    $('.ex-card').css('display','block');
+    $('#goBackBtn').remove();
   });
 };
 

@@ -29,6 +29,7 @@ const filterLocationCards = (e) => {
     $('.ex-card').hide();
     $(`#${exNameOnExCard}`).show();
     // pre-append the back button
+    $('#goBackBtn').remove();
     const goBackBtn = '<a href="#" class="btn btn-default find-location-btn reduce-padding" role="button" id="goBackBtn">Back</a>';
     $(goBackBtn).insertBefore(`#${exNameOnExCard}`);
 
