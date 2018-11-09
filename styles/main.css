@@ -1,7 +1,7 @@
 /* ---------------- General CSS ---------------- */
 
 body {
-  background-image: url('http://www.twitrcovers.com/wp-content/uploads/2012/10/Rain-l.jpg');
+  background-image: url('../imgs/background.jpg');
 }
 
 .margin-top {
@@ -17,6 +17,11 @@ body {
   margin-top: 0px;
 }
 
+.ex-card {
+  width: 220px;
+  margin: 0px auto 10px auto;
+}
+
 .ex-card label,
 .location-card label {
   display: block;
@@ -24,8 +29,7 @@ body {
 
 .ex-card img {
   width: 100%;
-  height: 290px;
-  border-radius: 50%;
+  height: 100px;
 }
 
 body {
@@ -33,17 +37,18 @@ body {
 }
 
 #left-col {
-  overflow: scroll;
   height: 100vh;
 }
 
 #right-col {
-  overflow: scroll;
   height: 100vh;
 }
 
 #goBackBtn {
-  width: 100%;
+  display: block;
+  width: 220px;
+  margin: auto;
+  text-align: center;
 }
 
 /* ---------------- Nav CSS ---------------- */
